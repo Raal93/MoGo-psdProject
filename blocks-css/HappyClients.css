@@ -1,0 +1,68 @@
+.happyClients {
+  height: 830px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  background: linear-gradient(0deg, rgba(246, 246, 246, 0.85) 0%, rgba(246, 246, 246, 0.85) 100%), url(/images/mountain.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.happyClients .gallery {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+.happyClients .gallery .card {
+  width: 50%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 60px;
+}
+
+.happyClients .gallery .card img.photo {
+  margin: 0 30px;
+}
+
+.happyClients .gallery .card .describtion {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-start;
+}
+
+.happyClients .gallery .describtion h6 {
+  font-size: 14px;
+  text-transform: uppercase;
+  color: #333333;
+  font-weight: 400;
+  font-family: "Montserrat";
+  margin-top: 30px;
+}
+
+.happyClients .gallery .describtion .workTitle {
+  font-size: 15px;
+  line-height: 24px;
+  color: #333333;
+  font-weight: 300;
+  font-style: italic;
+  font-family: "Roboto";
+  margin-top: 10px;
+  margin-bottom: 15px;
+}
+
+.happyClients .gallery .describtion p {
+  font-size: 15px;
+  line-height: 24px;
+  color: #999999;
+  font-weight: 400;
+  font-family: "Roboto";
+  margin-right: 30px;
+  margin-top: 20px;
+}

@@ -1,0 +1,45 @@
+section.services {
+  height: 650px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.services .cards {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.services .cards .card {
+  width: 33%;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+.services .card img {
+  align-self: flex-start;
+  margin: 0 25px;
+}
+
+.services .card h5 {
+  font-size: 14px;
+  text-transform: uppercase;
+  color: #333333;
+  font-weight: 400;
+  font-family: "Montserrat";
+}
+
+.services .card p {
+  font-size: 15px;
+  line-height: 24px;
+  color: #999999;
+  font-weight: 400;
+  font-family: "Roboto";
+  margin: 20px 0;
+}

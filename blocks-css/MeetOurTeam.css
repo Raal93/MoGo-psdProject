@@ -1,0 +1,45 @@
+section.meetOurTeam {
+  height: 1050px;
+}
+
+section.meetOurTeam article.article-header p {
+  color: #999999;
+}
+
+.meetOurTeam .gallery {
+  margin: 80px 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.meetOurTeam .gallery .card img {
+  margin-right: 30px;
+}
+
+.meetOurTeam .gallery .card img:last-child {
+  margin-right: 0;
+}
+
+.meetOurTeam .gallery .card h6 {
+  font-size: 14px;
+  text-transform: uppercase;
+  color: #333333;
+  font-weight: 400;
+  font-family: "Montserrat";
+  text-align: center;
+  margin-top: 25px;
+}
+
+.meetOurTeam .gallery .card span {
+  display: block;
+  font-size: 15px;
+  line-height: 24px;
+  color: #999999;
+  font-weight: 300;
+  font-style: italic;
+  font-family: "Roboto";
+  text-align: center;
+  margin: 10px 0;
+}

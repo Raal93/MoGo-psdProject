@@ -1,0 +1,21 @@
+.uniqueDesign-wrapper {
+  height: 860px;
+  background-image: linear-gradient(rgba(217, 217, 217, 0.85), rgba(217, 217, 217, 0.85)), url(/images/White.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+section.uniqueDesign {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+
+  position: relative;
+}
+
+.uniqueDesign img.small {
+  position: absolute;
+  bottom: -50px;
+  left: 60%;
+}

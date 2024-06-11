@@ -1,0 +1,23 @@
+.openMap {
+  height: 200px;
+  background: url(/images/Map.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  cursor: pointer;
+}
+
+.openMap h4 {
+  font-size: 24px;
+  text-transform: uppercase;
+  color: #f38181;
+  font-weight: 700;
+  font-family: "Montserrat";
+  text-align: center;
+  margin: 20px 0;
+}
