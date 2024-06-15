@@ -1,6 +1,6 @@
 .uniqueDesign-wrapper {
   height: 860px;
-  background-image: linear-gradient(rgba(217, 217, 217, 0.85), rgba(217, 217, 217, 0.85)), url(/images/White.png);
+  background-image: linear-gradient(rgba(217, 217, 217, 0.85), rgba(217, 217, 217, 0.85)), url(../images/White.png);
   background-size: cover;
   background-repeat: no-repeat;
 }

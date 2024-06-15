@@ -1,5 +1,5 @@
 header {
-  background: linear-gradient(0deg, rgba(251, 227, 137, 0.85) 0%, rgba(244, 139, 130, 0.85) 100%), url(/images/Layer\ 15.png);
+  background: linear-gradient(0deg, rgba(251, 227, 137, 0.85) 0%, rgba(244, 139, 130, 0.85) 100%), url(../images/Layer\ 15.png);
   background-size: cover;
   background-repeat: no-repeat;
 }

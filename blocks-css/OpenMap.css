@@ -1,6 +1,6 @@
 .openMap {
   height: 200px;
-  background: url(/images/Map.png);
+  background: url(../images/Map.png);
   background-size: cover;
   background-repeat: no-repeat;
 
