@@ -10,16 +10,62 @@ section.meetOurTeam article.article-header p {
   margin: 80px 0;
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: center;
+  gap: 30px;
   align-items: center;
 }
 
-.meetOurTeam .gallery .card img {
-  margin-right: 30px;
+.meetOurTeam .gallery .img-container {
+  width: 378px;
+  height: 468px;
+
+  position: relative;
 }
 
-.meetOurTeam .gallery .card img:last-child {
-  margin-right: 0;
+.meetOurTeam .gallery .img-container .hoverEff .icon-container {
+  width: 56px;
+  height: 56px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #fce38a;
+  transition: all 0.2s;
+  box-sizing: border-box;
+  border-right: 1px solid #f38181;
+}
+
+.meetOurTeam .gallery .img-container .hoverEff .icon-container:last-child {
+  border: none;
+}
+
+.meetOurTeam .gallery .img-container .hoverEff {
+  transition: transform 0.2s, box-shadow 0.2s;
+
+  display: block;
+  width: 0;
+  height: 0;
+  overflow: hidden;
+}
+
+.meetOurTeam .gallery .img-container:hover .hoverEff {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 378px;
+  height: 468px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+
+  background: linear-gradient(0deg, rgba(226, 204, 123, 0.85) 0%, rgba(219, 116, 116, 0.85) 100%);
+  transform: translate(-10px, -10px);
+  box-shadow: 10px 10px 0 0 #95e1d3;
+}
+
+.meetOurTeam .gallery .img-container .hoverEff .icon-container:hover {
+  background: #95e1d3;
 }
 
 .meetOurTeam .gallery .card h6 {
@@ -32,7 +78,7 @@ section.meetOurTeam article.article-header p {
   margin-top: 25px;
 }
 
-.meetOurTeam .gallery .card span {
+.meetOurTeam .gallery .card .workTitle {
   display: block;
   font-size: 15px;
   line-height: 24px;
